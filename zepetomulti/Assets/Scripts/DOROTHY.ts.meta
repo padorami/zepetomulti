@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: a870af7f04476e046af3367e5aee055b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    ZEPETO_Character_Controller_1 = require(\"ZEPETO.Character.Controller\");\r\nclass
+    DOROTY extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    Start() {\r\n       
+    let spawn = new ZEPETO_Character_Controller_1.SpawnInfo();\r\n        spawn.position
+    = this.transform.position;\r\n        spawn.rotation = this.transform.rotation;\r\n       
+    ZEPETO_Character_Controller_1.ZepetoCharacterCreator.CreateByZepetoId(\"xst404\",
+    new ZEPETO_Character_Controller_1.SpawnInfo(), (character) => {\r\n           
+    character.SetGesture(this.gesture);\r\n        });\r\n    }\r\n}\r\nexports.default
+    = DOROTY;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRE9ST1RIWS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkRPUk9USFkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBc0Q7QUFDdEQsNkVBQTZIO0FBRTdILE1BQXFCLE1BQU8sU0FBUSxxQ0FBcUI7SUFFckQsS0FBSztRQUNELElBQUksS0FBSyxHQUFjLElBQUksdUNBQVMsRUFBRSxDQUFBO1FBQ3RDLEtBQUssQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUM7UUFDekMsS0FBSyxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQztRQUN6QyxvREFBc0IsQ0FBQyxnQkFBZ0IsQ0FBQyxRQUFRLEVBQUUsSUFBSSx1Q0FBUyxFQUFFLEVBQUUsQ0FBQyxTQUEwQixFQUFFLEVBQUU7WUFDOUYsU0FBUyxDQUFDLFVBQVUsQ0FBQyxJQUFJLENBQUMsT0FBTyxDQUFDLENBQUM7UUFDdkMsQ0FBQyxDQUFDLENBQUE7SUFDTixDQUFDO0NBQ0o7QUFWRCx5QkFVQyJ9","assetPath":"Assets/Scripts/DOROTHY.ts","manifest":{"properties":[{"assembly":"UnityEngine.AnimationModule","name":"gesture","type":"UnityEngine.AnimationClip","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"DOROTY","description":""},"isCompiled":true}'
+  typescriptHash: 5e5758bc631684363d7b17276edb8f08
+  onlyWriteTrigger: 0

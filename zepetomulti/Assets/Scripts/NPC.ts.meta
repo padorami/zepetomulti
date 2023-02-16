@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: d99d7a4317bdace4a8d40a6280f93554
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    ZEPETO_Character_Controller_1 = require(\"ZEPETO.Character.Controller\");\r\nclass
+    NPC extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    Start() {\r\n       
+    let spawn = new ZEPETO_Character_Controller_1.SpawnInfo();\r\n        spawn.position
+    = this.transform.position;\r\n        spawn.rotation = this.transform.rotation;\r\n       
+    ZEPETO_Character_Controller_1.ZepetoCharacterCreator.CreateByZepetoId(\"ramhwi\",
+    new ZEPETO_Character_Controller_1.SpawnInfo(), (character) => {\r\n           
+    character.SetGesture(this.gesture);\r\n        });\r\n    }\r\n}\r\nexports.default
+    = NPC;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTlBDLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiTlBDLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXNEO0FBQ3RELDZFQUE2SDtBQUU3SCxNQUFxQixHQUFJLFNBQVEscUNBQXFCO0lBRWxELEtBQUs7UUFDRCxJQUFJLEtBQUssR0FBYyxJQUFJLHVDQUFTLEVBQUUsQ0FBQTtRQUN0QyxLQUFLLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDO1FBQ3pDLEtBQUssQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUM7UUFDckMsb0RBQXNCLENBQUMsZ0JBQWdCLENBQUMsUUFBUSxFQUFFLElBQUksdUNBQVMsRUFBRSxFQUFFLENBQUMsU0FBMEIsRUFBRSxFQUFFO1lBQzlGLFNBQVMsQ0FBQyxVQUFVLENBQUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDO1FBQ3BDLENBQUMsQ0FBQyxDQUFBO0lBQ2IsQ0FBQztDQUNKO0FBVkQsc0JBVUMifQ==","assetPath":"Assets/Scripts/NPC.ts","manifest":{"properties":[{"assembly":"UnityEngine.AnimationModule","name":"gesture","type":"UnityEngine.AnimationClip","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"NPC","description":""},"isCompiled":true}'
+  typescriptHash: 34c75cdb9ae4f45260d744f3ff91c0ef
+  onlyWriteTrigger: 0
